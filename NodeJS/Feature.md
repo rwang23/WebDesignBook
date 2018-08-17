@@ -10,3 +10,18 @@
 - 不等来自IO的data，下面的语句也可以进行了，等拿到data再做回调
 
 ![Non-blocking IO](../image/BlockingIO.PNG)
+
+#Grammar
+- app.js intialization file for Node
+
+```NodeJs
+//file system
+const fs = require('fs');
+//operation system
+const os = require('os');
+//will give username, pid, uid, homedir, shell path
+var user = os.userInfo();
+```
+
+##
+- os.userInfo
