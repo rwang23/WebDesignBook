@@ -6,19 +6,6 @@
 - 使用Global keyword可以获得全局变量，跟javascript的window一样
 - 使用Process可以拿到Node Process 就像在JS的Document 可以拿到当面页面的Dom
 
-##Install package
-####create package config
-```
-npm init
-```
-####Install package
-```
-npm install lodash --save
-```
-####install module based on package.json
-```
-npm install
-```
 ##Feature
 - Non-blocking IO（当作blocking IO操作的时候，接下来的操作被暂时阻挡了）
 - 不等来自IO的data，下面的语句也可以进行了，等拿到data再做回调
@@ -53,3 +40,23 @@ module.exports.add = (a, b) => {
 	_.isString(string)
 	//filter duplicates
 	_.uniq(array)
+
+###nodemon
+- 能够生成一个即时反应的localhost
+- 当nodemon project, 如果Project里的nodejs变了,那会自动重启这个project
+- 使用control + c来结束nodemon
+
+###command line 调入参数
+```nodejs
+var command = process.argv[2];
+console.log('Command: ', command);
+if (command == 'add') {
+
+}
+
+```
+调用时
+node app.js add remove
+
+
+
