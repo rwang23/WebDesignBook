@@ -11,3 +11,5 @@ This is the summary of my Web learning experience.
 
 * [JavaScript](JavaScript/README.md)
 
+* [Django](Django/README.md)
+	* [Introduction](Django/intro.md)

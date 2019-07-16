@@ -7,6 +7,8 @@
 npm init
 ```
 ###Install package
+- 如果不用save 如果把这个Node删了,以后要用要重新下载
+
 ```
 npm install lodash --save
 ```
